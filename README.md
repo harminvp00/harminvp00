@@ -2,7 +2,7 @@
 
 ### Computer Engineering Student • Full-Stack Developer • ML Enthusiast
 
-<p align="left">
+<!-- <p align="left">
   <a href="YOUR_LINKEDIN_URL">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
@@ -12,7 +12,7 @@
   <a href="YOUR_PORTFOLIO_URL">
     <img src="https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=google-chrome&logoColor=white" />
   </a>
-</p>
+</p> -->
 
 ---
 
