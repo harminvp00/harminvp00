@@ -1,24 +1,74 @@
-# Hi, I'm Harmin 
+<!-- ======================= HEADER ======================= -->
 
-### Computer Engineering Student • Full-Stack Developer • ML Enthusiast
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:111827,100:020617&height=180&section=header&text=HARMIN&fontSize=70&fontColor=ffffff&fontAlignY=45&animation=fadeIn"
+    width="100%"
+  />
+</p>
 
-<!-- <p align="left">
-  <a href="YOUR_LINKEDIN_URL">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
+<p align="center">
+  <a href="https://github.com/harminvp00">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Computer+Engineering+Student;Full-Stack+Developer;Machine+Learning+Enthusiast;Building+%7C+Breaking+%7C+Understanding" />
   </a>
-  <a href="YOUR_INSTAGRAM_URL">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" />
+</p>
+
+<p align="center">
+  <i>Turning ideas into software — and learning what happens underneath.</i>
+</p>
+
+<br>
+
+<!-- ======================= SOCIALS ======================= -->
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/harmin-vekariya-908509254/">
+    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="YOUR_PORTFOLIO_URL">
-    <img src="https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=google-chrome&logoColor=white" />
+  <a href="https://www.instagram.com/harminv00/">
+    <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
-</p> -->
+  <a href="https://github.com/harminvp00">
+    <img src="https://img.shields.io/badge/GITHUB-111827?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
----
+<br>
 
-## Tech Stack
+<!-- ======================= ABOUT ======================= -->
 
-### Programming Languages
+## `~/harmin`
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Computer%20Engineering-GTU-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/Full--Stack-Development-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/Machine-Learning-111827?style=flat-square" />
+</p>
+
+<p align="center">
+  <b>Software Development</b>
+  &nbsp; • &nbsp;
+  <b>Computer Science</b>
+  &nbsp; • &nbsp;
+  <b>Machine Learning</b>
+
+</p>
+
+**Educations**
+- **2022 - 2025**: Government Polytechnic Gandhinagar (Computer Engineering)
+- **2025 - 2028**: Government Engineering College, Palanpur (Computer Engineering)
+
+<br>
+
+<!-- ======================= TECH STACK ======================= -->
+
+## `stack`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Languages
 
 <p>
   <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/>
@@ -28,7 +78,11 @@
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
 </p>
 
-### Full-Stack Development
+</td>
+
+<td width="50%" valign="top">
+
+### Full-Stack
 
 <p>
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
@@ -38,6 +92,12 @@
   <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
 </p>
 
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
 ### Databases
 
 <p>
@@ -46,7 +106,11 @@
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
 </p>
 
-### Machine Learning & Data
+</td>
+
+<td width="50%" valign="top">
+
+### ML & Data
 
 <p>
   <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
@@ -55,6 +119,12 @@
   <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logo=python&logoColor=white"/>
 </p>
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
 
 ### Tools & Environment
 
@@ -66,43 +136,37 @@
   <img src="https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white"/>
 </p>
 
----
+</td>
+</tr>
+</table>
 
-## GitHub Statistics
+<br>
+
+<!-- ======================= GITHUB ======================= -->
+
+## `github`
 
 <p align="left">
   <img
-    src="https://streak-stats.demolab.com/?user=harminvp00&theme=dark&hide_border=true&starting_year=2022&card_width=560&card_height=210"
-    alt="GitHub Contribution Statistics"
+    src="https://streak-stats.demolab.com/?user=harminvp00&theme=dark&hide_border=true&card_width=650&card_height=220"
+    alt="GitHub Statistics"
   />
 </p>
 
----
+<br>
 
-## Education
-
-**Gujarat Technological University (GTU) — GEC Palanpur**
-
----
-
-## Connect With Me
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/harmin-vekariya-908509254/">
-    <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-
-  <a href="https://www.instagram.com/harminv00/">
-    <img src="https://img.shields.io/badge/Instagram-Profile-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-  </a>
-
-  <!-- <a href="YOUR_PORTFOLIO_URL">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-111111?style=for-the-badge&logo=google-chrome&logoColor=white"/>
-  </a> -->
-</p>
-
----
+<!-- ======================= FOOTER ======================= -->
 
 <p align="center">
-  <i>Build. Break. Understand. Build Better.</i>
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:111827,100:0f172a&height=100&section=footer"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <code>Build.</code>
+  <code>Break.</code>
+  <code>Understand.</code>
+  <code>Build Better.</code>
 </p>
