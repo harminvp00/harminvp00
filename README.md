@@ -56,7 +56,7 @@
 
 **Educations**
 - **2022 - 2025**: Government Polytechnic Gandhinagar (Computer Engineering)
-- **2025 - 2028**: Government Engineering College, Palanpur (Computer Engineering)
+- **2025 - Present**: Government Engineering College, Palanpur (Computer Engineering)
 
 <br>
 
