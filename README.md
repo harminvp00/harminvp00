@@ -55,6 +55,7 @@
 </p>
 
 **Educations**
+
 - **2022 - 2025**: Government Polytechnic Gandhinagar (Computer Engineering)
 - **2025 - Present**: Government Engineering College, Palanpur (Computer Engineering)
 
@@ -63,7 +64,6 @@
 <!-- ======================= TECH STACK ======================= -->
 
 ## `~/stack`
-
 
 <table>
 <tr>
@@ -148,7 +148,7 @@
 ## `~/github`
 
 <p align="left">
-  <img
+<img
     src="https://streak-stats.demolab.com/?user=harminvp00&theme=dark&hide_border=true&card_width=650&card_height=220"
     alt="GitHub Statistics"
   />
