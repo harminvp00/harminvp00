@@ -1,25 +1,10 @@
-<!-- ======================= HEADER ======================= -->
 
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:111827,100:020617&height=180&section=header&text=HARMIN&fontSize=70&fontColor=ffffff&fontAlignY=45&animation=fadeIn"
-    width="100%"
-  />
-</p>
-
+## `harmin_vekariya`
 <p align="center">
   <a href="https://github.com/harminvp00">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Computer+Engineering+Student;Full-Stack+Developer;Machine+Learning+Enthusiast;Building+%7C+Breaking+%7C+Understanding" />
   </a>
 </p>
-
-<p align="center">
-  <i>Turning ideas into software — and learning what happens underneath.</i>
-</p>
-
-<br>
-
-<!-- ======================= SOCIALS ======================= -->
 
 <p align="center">
   <a href="https://www.linkedin.com/in/harmin-vekariya-908509254/">
@@ -33,38 +18,19 @@
   </a>
 </p>
 
-<br>
-
-<!-- ======================= ABOUT ======================= -->
-
 ## `~/harmin`
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Computer%20Engineering-GTU-111827?style=flat-square" />
+  <img src="https://img.shields.io/badge/Computer%20-Engineering-111827?style=flat-square" />
   <img src="https://img.shields.io/badge/Full--Stack-Development-111827?style=flat-square" />
   <img src="https://img.shields.io/badge/Machine-Learning-111827?style=flat-square" />
 </p>
 
-<p align="center">
-  <b>Software Development</b>
-  &nbsp; • &nbsp;
-  <b>Computer Science</b>
-  &nbsp; • &nbsp;
-  <b>Machine Learning</b>
-
-</p>
 
 **Educations**
-
 - **2022 - 2025**: Government Polytechnic Gandhinagar (Computer Engineering)
 - **2025 - Present**: Government Engineering College, Palanpur (Computer Engineering)
 
-<br>
-
-<!-- ======================= TECH STACK ======================= -->
-
 ## `~/stack`
-
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -141,10 +107,6 @@
 </tr>
 </table>
 
-<br>
-
-<!-- ======================= GITHUB ======================= -->
-
 ## `~/github`
 
 <p align="left">
@@ -154,20 +116,6 @@
   />
 </p>
 
-<br>
-
-<!-- ======================= FOOTER ======================= -->
-
 <p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:111827,100:0f172a&height=100&section=footer"
-    width="100%"
-  />
-</p>
-
-<p align="center">
-  <code>Build.</code>
-  <code>Break.</code>
-  <code>Understand.</code>
-  <code>Build Better.</code>
+  <code>while(alive) { learn(); build(); repeat(); }</code>
 </p>
