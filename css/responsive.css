@@ -1,0 +1,17 @@
+/* reponsive css code for the screen less than 900px  */
+@media screen and (max-width: 900px) {
+  #navbar #nav-items {
+    display: none;
+  }
+  #navbar #download_cv {
+    display: none;
+  }
+
+  #navbar #logo-container {
+    margin: 0 auto 0 0;
+  }
+
+  #toggle-menu {
+    display: block;
+  }
+}
