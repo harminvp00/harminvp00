@@ -39,4 +39,8 @@
     width: 300px;
     height: 300px;
   }
+
+  #logo-preview .inner-preview-container #text {
+    font-size: 16px;
+  }
 }

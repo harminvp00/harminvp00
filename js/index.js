@@ -8,10 +8,10 @@ const mediaquey = window.matchMedia("(min-width: 901px)");
 menu.addEventListener("click", () => {
   if (sidebar.style.display === "none") {
     sidebar.style.display = "block";
-    menuIcon.src = "../assets/close.svg";
+    menu.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#1f1f1f"><path d="M6.4,19L5,17.6L10.6,12L5,6.4L6.4,5L12,10.6L17.6,5L19,6.4L13.4,12L19,17.6L17.6,19L12,13.4L6.4,19Z"/></svg>`;
   } else {
     sidebar.style.display = "none";
-    menuIcon.src = "../assets/menu.svg";
+    menu.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#1f1f1f"><path d="M3,18V16H21v2H3Zm0-5V11H21v2H3ZM3,8V6H21V8H3Z"/></svg>`;
   }
 });
 
@@ -38,13 +38,20 @@ function dowloadCV() {
 
 /** function for open and close the preview using the JavaScript */
 const logoPreview = document.getElementById("logo-preview");
-const logo = document.getElementById("logo");
 const close = document.getElementById("preview-close");
-
-logo.addEventListener("click", () => {
-  logoPreview.style.display = "flex";
-});
+const previewImage = document.getElementById("previewImage");
+const imageText = document.getElementById("text");
 
 close.addEventListener("click", () => {
   logoPreview.style.display = "none";
 });
+
+// Image preview functions, preview method used again
+function openPreview(src, text) {
+  logoPreview.style.display = "flex";
+  previewImage.src = src;
+  previewImage.alt = text;
+  previewImage.title = text;
+  
+  imageText.innerText = text;
+}

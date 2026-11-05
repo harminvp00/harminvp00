@@ -33,14 +33,13 @@ a {
   width: 100%;
   height: 100vh;
   background-color: #00000049;
-  border: 1px solid black;
 
   display: none;
   justify-content: center;
   align-items: center;
 
   position: fixed;
-  z-index: 100;
+  z-index: 1000;
 }
 
 #logo-preview .inner-preview-container {
@@ -55,6 +54,7 @@ a {
 #logo-preview .preview {
   width: 500px;
   height: 500px;
+  object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
 
@@ -89,6 +89,7 @@ a {
 #navbar {
   position: sticky;
   top: 0;
+  z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,7 +185,8 @@ a {
   display: none;
   width: 100%;
   position: sticky;
-  top: 43px;
+  top: 64px;
+  z-index: 100;
   color: #fff;
   background: #000;
 }
@@ -220,4 +222,29 @@ a {
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+
+main {
+  margin: 0 30px;
+}
+
+main header {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  place-items: center;
+  gap: 10px;
+}
+
+main header img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  transition: filter .35s ease-in;
+}
+
+main header img:hover{
+  cursor: pointer;
+  filter: brightness(70%);
 }
