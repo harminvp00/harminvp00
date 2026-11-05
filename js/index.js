@@ -2,6 +2,7 @@
 const sidebar = document.getElementById("sidebar");
 const menu = document.getElementById("toggle-menu");
 const menuIcon = document.getElementById("toggle-icon");
+const mediaquey = window.matchMedia("(min-width: 901px)");
 
 // function for open and close menu
 menu.addEventListener("click", () => {
@@ -9,6 +10,14 @@ menu.addEventListener("click", () => {
     sidebar.style.display = "block";
     menuIcon.src = "../assets/close.svg";
   } else {
+    sidebar.style.display = "none";
+    menuIcon.src = "../assets/menu.svg";
+  }
+});
+
+// Handle the screen resize
+mediaquey.addEventListener("change", (event) => {
+  if (event.matches) {
     sidebar.style.display = "none";
     menuIcon.src = "../assets/menu.svg";
   }

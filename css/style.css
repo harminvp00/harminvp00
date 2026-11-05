@@ -68,7 +68,7 @@ a {
   position: absolute;
   top: 20px;
   right: 20px;
-  transition: background .36s ease;
+  transition: background 0.36s ease;
 }
 
 #logo-preview .inner-preview-container .image-container #preview-close:hover {
@@ -102,10 +102,18 @@ a {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+#navbar #logo-container span {
   font-family: "Birthstone", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
+}
+
+#navbar #logo-container a {
+  display: flex;
+  align-items: center;
 }
 
 #navbar #logo-container #logo {
@@ -176,13 +184,13 @@ a {
   display: none;
   width: 100%;
   position: sticky;
-  top: 44px;
+  top: 43px;
   color: #fff;
   background: #000;
 }
 
 #sidebar li a {
-  padding: 10px 15px;
+  padding: 15px 0;
   display: block;
   width: 100%;
   height: 100%;
@@ -190,6 +198,7 @@ a {
 }
 
 #sidebar li:hover {
+  text-align: center;
   background: #fff;
   opacity: 90%;
   cursor: pointer;
@@ -200,8 +209,9 @@ a {
 }
 
 #sidebar p {
-  font-size: 10px;
-  margin: 15px 0;
+  color: #ffffffac;
+  font-size: 12px;
+  padding: 5px 0 10px 0;
 }
 
 #sidebar #menu-download-btn {
