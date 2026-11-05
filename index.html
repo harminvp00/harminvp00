@@ -27,13 +27,7 @@
               d="M6.4,19L5,17.6L10.6,12L5,6.4L6.4,5L12,10.6L17.6,5L19,6.4L13.4,12L19,17.6L17.6,19L12,13.4L6.4,19Z"
             />
           </svg>
-          <img
-            id="previewImage"
-            class="preview"
-            src=""
-            alt=""
-            title=""
-          />
+          <img id="previewImage" class="preview" src="" alt="" title="" />
         </div>
         <p id="text"></p>
       </div>
@@ -44,6 +38,7 @@
       <!-- logo part of the navbar  -->
       <div id="logo-container">
         <img
+          id="logo"
           src="./assets/harmin.jpeg"
           alt="logo"
           onclick="openPreview('./assets/harmin.jpeg', 'Harmin Vekariya')"
@@ -128,11 +123,11 @@
             openPreview(`./assets/img-2.jpeg`, 'Odoo All India Hackathon 2026')
           "
         />
-        <img
+        <!-- <img
           src="./assets/img-3.jpeg"
           alt="team1"
           onclick="openPreview(`./assets/img-3.jpeg`, 'Enjoying Hackathons')"
-        />
+        /> -->
         <img
           src="./assets/img-4.jpeg"
           alt="team2"
@@ -146,9 +141,7 @@
         <img
           src="./assets/trophy.jpeg"
           alt="team3"
-          onclick="
-            openPreview(`./assets/trophy.jpeg`, 'First Hackathon Won')
-          "
+          onclick="openPreview(`./assets/trophy.jpeg`, 'First Hackathon Won')"
         />
         <img
           src="./assets/img-6.jpeg"
@@ -157,6 +150,30 @@
         />
       </header>
     </main>
+
+    <section id="description">
+      <h2>Hello, <span> I am Harmin </span></h2>
+
+      Hello everyone,
+      <br />
+      My name is
+      <a
+        href="https://www.linkedin.com/in/harmin-vekariya-908509254/"
+        target="_blank"
+      >
+        Harmin vekariya </a
+      >, I am 21 years old, I am Web & ML engineer, working with ReactJS,
+      NodeJS, SQL/NoSQL databases, machine learning models. <br />
+      I am a student or learner of computer science at the
+      <a href="https://gecpalanpur.ac.in/" target="_blank">
+        Government Engineering College Palanpur </a
+      >, I begin my computer science journey from the Diploma Engineering at
+      <a href="https://sites.google.com/view/gpgandhinagar" target="_blank">
+        Government Polytechnic Gandhinagar </a
+      >, in Sept 2022, then I join Bachelor's degree engineering in July 2025 at
+      GEC Palanpur in same field, I started extending my AI knowledge, and build
+      mainly <a href="#" target="_blank"> projects </a> there.
+    </section>
 
     <script src="./js/index.js"></script>
   </body>
