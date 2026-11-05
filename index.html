@@ -15,23 +15,39 @@
     <div id="logo-preview">
       <div class="inner-preview-container">
         <div class="image-container">
-         
-          <svg id="preview-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#1f1f1f"><path d="M6.4,19L5,17.6L10.6,12L5,6.4L6.4,5L12,10.6L17.6,5L19,6.4L13.4,12L19,17.6L17.6,19L12,13.4L6.4,19Z"/></svg>
+          <svg
+            id="preview-close"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            height="24px"
+            width="24px"
+            fill="#1f1f1f"
+          >
+            <path
+              d="M6.4,19L5,17.6L10.6,12L5,6.4L6.4,5L12,10.6L17.6,5L19,6.4L13.4,12L19,17.6L17.6,19L12,13.4L6.4,19Z"
+            />
+          </svg>
           <img
+            id="previewImage"
             class="preview"
-            src="./assets/88478.jpeg"
-            alt="harmin"
-            title="harmin_vekariya"
+            src=""
+            alt=""
+            title=""
           />
         </div>
-        <p>Harmin Vekariya</p>
+        <p id="text"></p>
       </div>
     </div>
+
     <!-- root of navbar -->
     <nav id="navbar">
       <!-- logo part of the navbar  -->
       <div id="logo-container">
-        <img id="logo" src="./assets/88478.jpeg" alt="" />
+        <img
+          src="./assets/harmin.jpeg"
+          alt="logo"
+          onclick="openPreview('./assets/harmin.jpeg', 'Harmin Vekariya')"
+        />
         <span> Harmin Vekariya </span>
       </div>
 
@@ -53,12 +69,32 @@
 
       <!-- this is a part for the download CV Button  -->
       <button id="download_cv" type="button" title="Download CV">
-        <span> <i> Download CV </i> </span>
-        <img src="./assets/download.svg" alt="" />
+        <span>
+          <i> <b> Download CV </b> </i>
+        </span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          height="24px"
+          width="24px"
+          fill="#f1f1f1"
+        >
+          <path
+            d="M12,16L7,11L8.4,9.55l2.6,2.6V4h2v8.15l2.6-2.6L17,11l-5,5ZM6,20q-0.82,0-1.41-0.59T4,18V15H6v3H18V15h2v3q0,0.82-0.59,1.41T18,20H6Z"
+          />
+        </svg>
       </button>
 
       <button id="toggle-menu" type="button" title="click to open sidebar">
-        <img id="toggle-icon" src="./assets/menu.svg" alt="menu" />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          height="24px"
+          width="24px"
+          fill="#1f1f1f"
+        >
+          <path d="M3,18V16H21v2H3Zm0-5V11H21v2H3ZM3,8V6H21V8H3Z" />
+        </svg>
       </button>
     </nav>
 
@@ -78,9 +114,49 @@
       <p>&copy; 2026 - Harmin Vekariya</p>
     </aside>
 
-
-    <main> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi doloremque, fugiat natus illum omnis magnam magni officiis dolore dolores, nisi saepe delectus numquam quas quod rerum quos expedita perspiciatis repellendus voluptatem veniam iure distinctio. Nostrum, quam suscipit labore minus ipsum eaque eum aperiam ducimus saepe incidunt, voluptate impedit maiores repellendus consequatur ex, ut eius iusto itaque delectus nesciunt tempore. At a fuga rem ut asperiores in enim accusamus, nihil fugiat possimus blanditiis repudiandae dolor voluptates exercitationem cupiditate incidunt aperiam maiores doloremque porro! Et ipsa quia ab numquam soluta ipsam possimus neque repellendus, voluptate in iusto nostrum suscipit quo, ratione nobis? </main>
-
+    <main>
+      <header>
+        <img
+          src="./assets/img-1.jpeg"
+          alt="harmin"
+          onclick="openPreview(`./assets/img-1.jpeg`, 'me')"
+        />
+        <img
+          src="./assets/img-2.jpeg"
+          alt="harmin"
+          onclick="
+            openPreview(`./assets/img-2.jpeg`, 'Odoo All India Hackathon 2026')
+          "
+        />
+        <img
+          src="./assets/img-3.jpeg"
+          alt="team1"
+          onclick="openPreview(`./assets/img-3.jpeg`, 'Enjoying Hackathons')"
+        />
+        <img
+          src="./assets/img-4.jpeg"
+          alt="team2"
+          onclick="openPreview(`./assets/img-4.jpeg`, 'Coding Time')"
+        />
+        <img
+          src="./assets/img-5.jpeg"
+          alt="team3"
+          onclick="openPreview(`./assets/img-5.jpeg`, 'My Team')"
+        />
+        <img
+          src="./assets/trophy.jpeg"
+          alt="team3"
+          onclick="
+            openPreview(`./assets/trophy.jpeg`, 'First Hackathon Won')
+          "
+        />
+        <img
+          src="./assets/img-6.jpeg"
+          alt="team3"
+          onclick="openPreview(`./assets/img-6.jpeg`, 'BBIT hackathon 2024')"
+        />
+      </header>
+    </main>
 
     <script src="./js/index.js"></script>
   </body>
