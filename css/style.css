@@ -24,18 +24,76 @@ li {
   list-style-type: none;
 }
 
-a{
+a {
   color: #000;
   text-decoration: none;
 }
 
-#navbar {
+#logo-preview {
+  width: 100%;
+  height: 100vh;
+  background-color: #00000049;
+  border: 1px solid black;
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  z-index: 100;
+}
+
+#logo-preview .inner-preview-container {
+  background: #fff;
+  border-radius: 20px 20px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-preview .preview {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px 20px 0 0;
+}
+
+#logo-preview .image-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#logo-preview .inner-preview-container .image-container #preview-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transition: background .36s ease;
+}
+
+#logo-preview .inner-preview-container .image-container #preview-close:hover {
+  opacity: 80%;
+  background: #ff0000c7;
+  fill: #fff;
+  cursor: pointer;
+}
+
+#logo-preview p {
+  margin: 10px 0;
+  font-family: "Birthstone", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 15px 0 15px;
-  margin: 0 30px;
+  margin: 10px 30px;
   background: #fff;
   border-bottom: 1px solid #00000056;
 }
@@ -50,10 +108,14 @@ a{
   font-size: 30px;
 }
 
-#navbar #logo-container img {
-  width: 50px;
-  height: 50px;
+#navbar #logo-container #logo {
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
+}
+
+#navbar #logo-container #logo:hover {
+  cursor: pointer;
 }
 
 #navbar #nav-items {
@@ -72,14 +134,13 @@ a{
   background: #000;
 }
 
-#navbar #nav-items li:hover a{
+#navbar #nav-items li:hover a {
   color: #f1f1f1;
 }
 
-#navbar #nav-items .active-nav-item{
+#navbar #nav-items .active-nav-item {
   text-decoration: underline;
 }
-
 
 #navbar #download_cv {
   display: flex;
@@ -114,7 +175,8 @@ a{
   text-align: center;
   display: none;
   width: 100%;
-  position: absolute;
+  position: sticky;
+  top: 44px;
   color: #fff;
   background: #000;
 }
@@ -133,16 +195,16 @@ a{
   cursor: pointer;
 }
 
-#sidebar li:hover a{
+#sidebar li:hover a {
   color: #000;
 }
 
-#sidebar p{
+#sidebar p {
   font-size: 10px;
   margin: 15px 0;
 }
 
-#sidebar #menu-download-btn{
+#sidebar #menu-download-btn {
   background: #fff;
   display: flex;
   align-items: center;
