@@ -1,9 +1,21 @@
+
+@media screen and (min-width: 900px) {
+  #sidebar {
+    display: none;
+  }
+}
+
 /* reponsive css code for the screen less than 900px  */
 @media screen and (max-width: 900px) {
-  
+  #navbar {
+    padding: 10px 15px;
+    margin: 0 30px;
+  }
+
   #navbar #nav-items {
     display: none;
   }
+
   #navbar #download_cv {
     display: none;
   }
@@ -17,4 +29,14 @@
     display: block;
   }
 
+  #sidebar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #logo-preview .preview {
+    width: 300px;
+    height: 300px;
+  }
 }
