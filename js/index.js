@@ -26,6 +26,7 @@ function dowloadCV() {
   link.click();
   document.body.removeChild(link);
 }
+
 /** function for open and close the preview using the JavaScript */
 const logoPreview = document.getElementById("logo-preview");
 const logo = document.getElementById("logo");
