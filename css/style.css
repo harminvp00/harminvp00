@@ -248,3 +248,19 @@ main header img:hover{
   cursor: pointer;
   filter: brightness(70%);
 }
+
+#description{
+  font-size: 18px;
+  margin: 40px 30px 20px 30px;
+  padding: 20px 40px;
+  background: #f5f5f5;
+  outline: 1px solid #000;
+}
+
+#description h2{
+  text-align: center;
+}
+
+#description a{
+  color: #000fff;
+}
