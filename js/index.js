@@ -15,6 +15,14 @@ menu.addEventListener("click", () => {
   }
 });
 
+// hide sidebar whenever a link is clicked 
+const navLinks = document.querySelectorAll(".nav-links");
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    sidebar.style.display = "none";
+    menu.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#1f1f1f"><path d="M3,18V16H21v2H3Zm0-5V11H21v2H3ZM3,8V6H21V8H3Z"/></svg>`;
+  });
+});
 // Handle the screen resize
 mediaquey.addEventListener("change", (event) => {
   if (event.matches) {
@@ -52,6 +60,6 @@ function openPreview(src, text) {
   previewImage.src = src;
   previewImage.alt = text;
   previewImage.title = text;
-  
+
   imageText.innerText = text;
 }
