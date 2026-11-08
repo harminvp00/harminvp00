@@ -250,7 +250,7 @@ main header img:hover {
   filter: brightness(70%);
 }
 
-#about{
+#about {
   margin: 60px 0 0 0;
   text-align: center;
   font-size: 26px;
@@ -271,4 +271,68 @@ main header img:hover {
 
 #description a {
   color: #000fff;
+}
+
+/* Academic Details sections */
+#Academic {
+  margin: 60px 0 0 0;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#Academic-container {
+  margin: 20px 30px;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+
+#Academic-container .academic-institute {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#Academic-container .institute-logo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Footer  */
+/* bottom component footer for quick details and quick links  */
+footer {
+  background: #000000c4;
+  padding: 20px 0;
+  margin: 40px 0 0 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer .quick-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+footer .quick-links a {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+footer p {
+  margin: 20px 0 5px 0;
+  opacity: 80%;
+  text-align: center;
 }
