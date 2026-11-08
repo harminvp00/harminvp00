@@ -1,176 +1,167 @@
 <!doctype html>
 <html lang="en">
-  <!-- head informations  -->
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Harmin</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
-    <link rel="shortcut icon" href="./assets/img-1.jpeg" type="image/x-icon" />
-  </head>
+<!-- head informations  -->
 
-  <!-- HTML body, root of the document  -->
-  <body>
-    <div id="logo-preview">
-      <div class="inner-preview-container">
-        <div class="image-container">
-          <svg
-            id="preview-close"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            height="24px"
-            width="24px"
-            fill="#1f1f1f"
-          >
-            <path
-              d="M6.4,19L5,17.6L10.6,12L5,6.4L6.4,5L12,10.6L17.6,5L19,6.4L13.4,12L19,17.6L17.6,19L12,13.4L6.4,19Z"
-            />
-          </svg>
-          <img id="previewImage" class="preview" src="" alt="" title="" />
-        </div>
-        <p id="text"></p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harmin</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+  <link rel="shortcut icon" href="./assets/img-1.jpeg" type="image/x-icon" />
+</head>
+
+<!-- HTML body, root of the document  -->
+
+<body>
+  <div id="logo-preview">
+    <div class="inner-preview-container">
+      <div class="image-container">
+        <svg id="preview-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px"
+          fill="#1f1f1f">
+          <path d="M6.4,19L5,17.6L10.6,12L5,6.4L6.4,5L12,10.6L17.6,5L19,6.4L13.4,12L19,17.6L17.6,19L12,13.4L6.4,19Z" />
+        </svg>
+        <img id="previewImage" class="preview" src="" alt="" title="" />
       </div>
+      <p id="text"></p>
+    </div>
+  </div>
+
+  <!-- root of navbar -->
+  <nav id="navbar">
+    <!-- logo part of the navbar  -->
+    <div id="logo-container">
+      <img id="logo" src="./assets/gallery/harmin.jpeg" alt="logo"
+        onclick="openPreview('./assets/gallery/harmin.jpeg', 'Harmin Vekariya')" />
+      <span> Harmin Vekariya </span>
     </div>
 
-    <!-- root of navbar -->
-    <nav id="navbar">
-      <!-- logo part of the navbar  -->
-      <div id="logo-container">
-        <img
-          id="logo"
-          src="./assets/harmin.jpeg"
-          alt="logo"
-          onclick="openPreview('./assets/harmin.jpeg', 'Harmin Vekariya')"
-        />
-        <span> Harmin Vekariya </span>
-      </div>
-
-      <!-- page links  -->
-      <ul id="nav-items">
-        <li>
-          <a href="#about"> About </a>
-        </li>
-        <li>
-          <a href="#"> Academic </a>
-        </li>
-        <li>
-          <a href="#"> Projects </a>
-        </li>
-        <li>
-          <a href="#"> Skills </a>
-        </li>
-      </ul>
-
-      <!-- this is a part for the download CV Button  -->
-      <button id="download_cv" type="button" title="Download CV">
-        <span>
-          <i> <b> Download CV </b> </i>
-        </span>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          height="24px"
-          width="24px"
-          fill="#f1f1f1"
-        >
-          <path
-            d="M12,16L7,11L8.4,9.55l2.6,2.6V4h2v8.15l2.6-2.6L17,11l-5,5ZM6,20q-0.82,0-1.41-0.59T4,18V15H6v3H18V15h2v3q0,0.82-0.59,1.41T18,20H6Z"
-          />
-        </svg>
-      </button>
-
-      <button id="toggle-menu" type="button" title="click to open sidebar">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          height="24px"
-          width="24px"
-          fill="#1f1f1f"
-        >
-          <path d="M3,18V16H21v2H3Zm0-5V11H21v2H3ZM3,8V6H21V8H3Z" />
-        </svg>
-      </button>
-    </nav>
-
-    <aside id="sidebar">
+    <!-- page links  -->
+    <ul id="nav-items">
       <li>
-        <a class="nav-links" href="#about" target="_self"> About </a>
+        <a href="#about"> About </a>
       </li>
       <li>
-        <a class="nav-links" href="#"> Academic </a>
+        <a href="#"> Academic </a>
       </li>
       <li>
-        <a class="nav-links" href="#"> Projects </a>
+        <a href="#"> Projects </a>
       </li>
       <li>
-        <a class="nav-links" href="#"> Skills </a>
+        <a href="#"> Skills </a>
       </li>
-      <p>&copy; 2026 - Harmin Vekariya</p>
-    </aside>
+    </ul>
 
-    <div id="about" style="margin-bottom: 60px"></div>
+    <!-- this is a part for the download CV Button  -->
+    <button id="download_cv" type="button" title="Download CV">
+      <span>
+        <i> <b> Download CV </b> </i>
+      </span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#f1f1f1">
+        <path
+          d="M12,16L7,11L8.4,9.55l2.6,2.6V4h2v8.15l2.6-2.6L17,11l-5,5ZM6,20q-0.82,0-1.41-0.59T4,18V15H6v3H18V15h2v3q0,0.82-0.59,1.41T18,20H6Z" />
+      </svg>
+    </button>
 
-    <main>
-      <header>
-        <img
-          src="./assets/img-1.jpeg"
-          alt="harmin"
-          onclick="openPreview(`./assets/img-1.jpeg`, 'me')"
-        />
-        <img
-          src="./assets/img-2.jpeg"
-          alt="harmin"
-          onclick="
-            openPreview(`./assets/img-2.jpeg`, 'Odoo All India Hackathon 2026')
-          "
-        />
-        <img
-          src="./assets/img-4.jpeg"
-          alt="team2"
-          onclick="openPreview(`./assets/img-4.jpeg`, 'Coding Time')"
-        />
-        <img
-          src="./assets/img-5.jpeg"
-          alt="team3"
-          onclick="openPreview(`./assets/img-5.jpeg`, 'My Team')"
-        />
-        <img
-          src="./assets/trophy.jpeg"
-          alt="team3"
-          onclick="openPreview(`./assets/trophy.jpeg`, 'First Hackathon Won')"
-        />
-        <img
-          src="./assets/img-6.jpeg"
-          alt="team3"
-          onclick="openPreview(`./assets/img-6.jpeg`, 'BBIT hackathon 2024')"
-        />
-      </header>
-    </main>
+    <button id="toggle-menu" type="button" title="click to open sidebar">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#1f1f1f">
+        <path d="M3,18V16H21v2H3Zm0-5V11H21v2H3ZM3,8V6H21V8H3Z" />
+      </svg>
+    </button>
+  </nav>
 
-    <section id="description">
-      <i> Hello everyone</i>,
-      <br />
-      My name is
-      <a
-        href="https://www.linkedin.com/in/harmin-vekariya-908509254/"
-        target="_blank"
-      >
-        Harmin vekariya </a
-      >, I am 21 years old, I am Web & ML engineer, working with ReactJS,
-      NodeJS, SQL/NoSQL databases, machine learning models. to build scalable web apps with machine intelligence. <br />
-      I am a student or learner of computer science at the
-      <a href="https://gecpalanpur.ac.in/" target="_blank">
-        Government Engineering College Palanpur </a
-      >, I begin my computer science journey from the Diploma Engineering at
-      <a href="https://sites.google.com/view/gpgandhinagar" target="_blank">
-        Government Polytechnic Gandhinagar
+  <aside id="sidebar">
+    <li>
+      <a class="nav-links" href="#about" target="_self"> About </a>
+    </li>
+    <li>
+      <a class="nav-links" href="#"> Academic </a>
+    </li>
+    <li>
+      <a class="nav-links" href="#"> Projects </a>
+    </li>
+    <li>
+      <a class="nav-links" href="#"> Skills </a>
+    </li>
+    <p>&copy; 2026 - Harmin Vekariya</p>
+  </aside>
+
+  <main>
+    <header>
+      <img src="./assets/gallery/img-1.jpeg" alt="harmin" onclick="openPreview(`./assets/gallery/img-1.jpeg`, 'me')" />
+      <img src="./assets/gallery/img-2.jpeg" alt="harmin" onclick="
+            openPreview(`./assets/gallery/img-2.jpeg`, 'Odoo All India Hackathon 2026')
+          " />
+      <img src="./assets/gallery/img-4.jpeg" alt="team2" onclick="openPreview(`./assets/gallery/img-4.jpeg`, 'Coding Time')" />
+      <img src="./assets/gallery/img-5.jpeg" alt="team3" onclick="openPreview(`./assets/gallery/img-5.jpeg`, 'My Team')" />
+      <img src="./assets/gallery/trophy.jpeg" alt="team3"
+        onclick="openPreview(`./assets/gallery/trophy.jpeg`, 'First Hackathon Won')" />
+      <img src="./assets/gallery/img-6.jpeg" alt="team3" onclick="openPreview(`./assets/gallery/img-6.jpeg`, 'BBIT hackathon 2024')" />
+    </header>
+  </main>
+
+  <div id="about"> About Me </div>
+  <section id="description">
+    <i> Hello everyone </i>,
+    <br />
+    My name is
+    <a href="https://www.linkedin.com/in/harmin-vekariya-908509254/" target="_blank">
+      Harmin vekariya </a>, I am 21 years old, I am Web & ML engineer, working with ReactJS,
+    NodeJS, SQL/NoSQL databases, machine learning models. to build scalable web apps with machine intelligence. <br />
+    <br>
+    I am a student of computer science at the
+    <a href="https://gecpalanpur.ac.in/" target="_blank">
+      Government Engineering College Palanpur </a>, I begin my computer science journey from the Diploma Engineering at
+    <a href="https://sites.google.com/view/gpgandhinagar" target="_blank">
+      Government Polytechnic Gandhinagar
+    </a>
+    in Sept 2022, then I join Bachelor's degree engineering in July 2025 at
+    GEC Palanpur in same field, I started upgrading my AI knowledge, and build
+    mainly <a href="#" target="_blank"> projects </a> here.
+  </section>
+
+  <div id="Academic"> Academics </div>
+
+  <!-- acadmic details container  -->
+  <section id="Academic-container">
+
+    <!-- GP Gandhinagar  -->
+    <div class="academic-institute">
+      <img class="institute-logo" src="./assets/institute/GTU.png" alt="gpg">
+      <h4> 2022 - 2025 </h4>
+      <p>Diploma in Computer Engineering </p>
+      <p> Govenment Polytechnical Gandhinagar </p>
+    </div>
+
+    <!-- GEC Palanpur  -->
+    <div class="academic-institute">
+      <img class="institute-logo" src="./assets/institute/gecpl.jpg" alt="gecpl">
+      <h4> 2025 - Present </h4>
+      <p>BE in Computer Engineering </p>
+      <p> Govenment Engineering College Palanpur </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="quick-links">
+      <a href="">
+        <img src="./assets/google.png" alt=""> Google
       </a>
-      in Sept 2022, then I join Bachelor's degree engineering in July 2025 at
-      GEC Palanpur in same field, I started upgrading my AI knowledge, and build
-      mainly <a href="#" target="_blank"> projects </a> here.
-    </section>
+      <a href="">
+        <img src="./assets/google.png" alt=""> Google
+      </a>
+      <a href="">
+        <img src="./assets/google.png" alt=""> Google
+      </a>
+      <a href="">
+        <img src="./assets/google.png" alt=""> Google
+      </a>
+    </div>
 
-    <script src="./js/index.js"></script>
-  </body>
+    <p> &copy; 2026 Harmin Vekariya </p>
+  </footer>
+
+  <script src="./js/index.js"></script>
+</body>
+
 </html>

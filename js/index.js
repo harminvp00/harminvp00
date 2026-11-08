@@ -55,6 +55,12 @@ close.addEventListener("click", () => {
   logoPreview.style.display = "none";
 });
 
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' || event.key === 'Esc') {
+      logoPreview.style.display = "none";
+  }
+})
+
 // Image preview functions, preview method used again
 function openPreview(src, text) {
   logoPreview.style.display = "flex";
