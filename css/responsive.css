@@ -36,12 +36,14 @@
   #logo-preview .inner-preview-container #text {
     font-size: 16px;
   }
+}
 
-  main header{
+@media screen and (max-width: 680px) {
+  main header {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 
-  main header img{
+  main header img {
     width: 100px;
     height: 100px;
   }
