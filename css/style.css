@@ -308,7 +308,7 @@ main header img:hover {
 /* Footer  */
 /* bottom component footer for quick details and quick links  */
 footer {
-  background: #000000c4;
+  background: #00000053;
   padding: 20px 0;
   margin: 40px 0 0 0;
   color: #fff;
@@ -319,11 +319,10 @@ footer .quick-links {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 footer .quick-links a {
-  color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -332,6 +331,7 @@ footer .quick-links a {
 }
 
 footer p {
+  color: #000000;
   margin: 20px 0 5px 0;
   opacity: 80%;
   text-align: center;
