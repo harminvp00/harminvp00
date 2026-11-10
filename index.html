@@ -39,16 +39,16 @@
     <!-- page links  -->
     <ul id="nav-items">
       <li>
-        <a href="#about"> About </a>
+        <a href="#About"> About </a>
       </li>
       <li>
-        <a href="#"> Academic </a>
+        <a href="#Academic"> Academic </a>
       </li>
       <li>
-        <a href="#"> Projects </a>
+        <a href="#Projects"> Projects </a>
       </li>
       <li>
-        <a href="#"> Skills </a>
+        <a href="#Skills"> Skills </a>
       </li>
     </ul>
 
@@ -72,16 +72,16 @@
 
   <aside id="sidebar">
     <li>
-      <a class="nav-links" href="#about" target="_self"> About </a>
+      <a class="nav-links" href="#About"> About </a>
     </li>
     <li>
-      <a class="nav-links" href="#"> Academic </a>
+      <a class="nav-links" href="#Academic"> Academic </a>
     </li>
     <li>
-      <a class="nav-links" href="#"> Projects </a>
+      <a class="nav-links" href="#Projects"> Projects </a>
     </li>
     <li>
-      <a class="nav-links" href="#"> Skills </a>
+      <a class="nav-links" href="#Skills"> Skills </a>
     </li>
     <li>
       <a class="nav-links" href="./resume/harmin_vekariya_cv.pdf" target="_blank"> Download CV </a>
@@ -95,15 +95,18 @@
       <img src="./assets/gallery/img-2.jpeg" alt="harmin" onclick="
             openPreview(`./assets/gallery/img-2.jpeg`, 'Odoo All India Hackathon 2026')
           " />
-      <img src="./assets/gallery/img-4.jpeg" alt="team2" onclick="openPreview(`./assets/gallery/img-4.jpeg`, 'Coding Time')" />
-      <img src="./assets/gallery/img-5.jpeg" alt="team3" onclick="openPreview(`./assets/gallery/img-5.jpeg`, 'My Team')" />
+      <img src="./assets/gallery/img-4.jpeg" alt="team2"
+        onclick="openPreview(`./assets/gallery/img-4.jpeg`, 'Coding Time')" />
+      <img src="./assets/gallery/img-5.jpeg" alt="team3"
+        onclick="openPreview(`./assets/gallery/img-5.jpeg`, 'My Team')" />
       <img src="./assets/gallery/trophy.jpeg" alt="team3"
         onclick="openPreview(`./assets/gallery/trophy.jpeg`, 'First Hackathon Won')" />
-      <img src="./assets/gallery/img-6.jpeg" alt="team3" onclick="openPreview(`./assets/gallery/img-6.jpeg`, 'BBIT hackathon 2024')" />
+      <img src="./assets/gallery/img-6.jpeg" alt="team3"
+        onclick="openPreview(`./assets/gallery/img-6.jpeg`, 'BBIT hackathon 2024')" />
     </header>
   </main>
 
-  <div id="about"> About Me </div>
+  <div class="title" id="about"> About Me </div>
   <section id="description">
     <i> Hello everyone </i>,
     <br />
@@ -123,7 +126,7 @@
     mainly <a href="#" target="_blank"> projects </a> here.
   </section>
 
-  <div id="Academic"> Academics </div>
+  <div class="title" id="Academic"> Academics </div>
 
   <!-- acadmic details container  -->
   <section id="Academic-container">
@@ -145,21 +148,84 @@
     </div>
   </section>
 
+  <div class="title" id="Projects"> Top Projects </div>
+
+  <section id="projects-container">
+
+    <!-- first project card  -->
+    <article class="projects">
+
+      <!-- image  -->
+    <img src="./assets/projects/demo.png" alt="demo" title="demo"
+      onclick="openPreview(`./assets/projects/demo.png`, 'BlogBuzz Social Webapp')">
+
+      <!-- project content  -->
+      <div class="content">
+        <!-- title  -->
+        <h3> BlogBuzz </h3>
+
+        <!-- descriptions  -->
+        <p>Blogbuzz is social website where people share blogs, and read blog of other, it is my first created full
+          stack applications using MERN stack.</p>
+
+        <!-- link  -->
+        <a href="#" target="_blank"> View Project </a>
+      </div>
+    </article>
+
+    <article class="projects">
+
+      <!-- image  -->
+      <img src="./assets/projects/demo.png" alt="demo" title="demo"
+        onclick="openPreview(`./assets/projects/demo.png`, 'BlogBuzz Social Webapp')">
+
+      <!-- project content  -->
+      <div class="content">
+        <!-- title  -->
+        <h3> QuickChat </h3>
+
+        <!-- descriptions  -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium eveniet maiores quasi, nisi
+          aspernatur aliquam ex illum animi sunt.</p>
+
+        <!-- link  -->
+        <a href="#" target="_blank"> View Project </a>
+      </div>
+    </article>
+
+    <article class="projects">
+
+      <!-- image  -->
+      <img src="./assets/projects/demo.png" alt="demo" title="demo"
+        onclick="openPreview(`./assets/projects/demo.png`, 'BlogBuzz Social Webapp')">
+
+      <!-- project content  -->
+      <div class="content">
+        <!-- title  -->
+        <h3> Cooper 1.0 </h3>
+
+        <!-- descriptions  -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum laudantium eveniet maiores quasi, nisi
+          aspernatur aliquam ex illum animi sunt.</p>
+
+        <!-- link  -->
+        <a href="#" target="_blank"> View Project </a>
+      </div>
+    </article>
+  </section>
+
   <footer>
     <div class="quick-links">
-      <a href="">
+      <a href="https://github.com/harminvp00" target="_blank">
         <img src="./assets/footer/github.png" alt=""> GitHub
       </a>
-      <a href="">
+      <a href="https://www.instagram.com/developers.mind/" target="_blank">
         <img src="./assets/footer/instagram.png" alt=""> Instagram
       </a>
-      <a href="">
-        <img src="./assets/footer/facebook.png" alt=""> Facebook
-      </a>
-      <a href="">
+      <a href="https://www.linkedin.com/in/harmin-vekariya-908509254/" target="_blank">
         <img src="./assets/footer/linkedin.png" alt=""> Linkedin
       </a>
-       <a href="">
+      <a href="https://www.youtube.com/@developers_mind" target="_blank">
         <img src="./assets/footer/youtube.png" alt=""> Youtube
       </a>
     </div>
