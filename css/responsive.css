@@ -1,4 +1,15 @@
 /* reponsive css code for the screen less than 900px  */
+
+@media screen and (max-width: 1250px) {
+  #Academic-container {
+    margin: 20px 100px;
+  }
+
+  #skills-container {
+    margin: 20px 100px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   #navbar {
     padding: 10px 15px;
@@ -24,6 +35,10 @@
 
   #sidebar {
     display: none;
+  }
+
+  #Academic-container {
+    margin: 20px 50px;
   }
 
   #skills-container {
@@ -59,6 +74,10 @@
 }
 
 @media screen and (max-width: 540px) {
+
+  #Academic-container {
+    margin: 20px 30px;
+  }
 
   #skills-container {
     margin: 20px 50px;
