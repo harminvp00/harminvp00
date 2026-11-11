@@ -351,8 +351,9 @@
   #skills-container img {
     width: 150px;
     height: 150px;
-    object-fit: cover;
+    object-fit: contain;
     cursor: pointer;
+    background: transparent;
   }
 
   /* Footer: bottom component footer for quick details and quick links  */
