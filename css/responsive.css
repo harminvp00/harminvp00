@@ -75,8 +75,24 @@
 
 @media screen and (max-width: 540px) {
 
+  .title {
+    font-size: 22px;
+  }
+
+  #About-container {
+    font-size: 16px;
+  }
   #Academic-container {
     margin: 20px 30px;
+  }
+
+  /* Experience Details sections */
+  #Experience-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  #Experience-container .inner-container {
+    width: 300px;
   }
 
   #skills-container {
@@ -84,7 +100,16 @@
   }
 
   #skills-container img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+  }
+
+  footer .quick-links a img {
+    width: 30px;
+    height: 30px;
+  }
+
+  footer p {
+    font-size: 5px;
   }
 }
