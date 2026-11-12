@@ -10,10 +10,9 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 974px) {
   #navbar {
-    padding: 10px 15px;
-    margin: 0 30px;
+    padding: 10px 40px;
   }
 
   #navbar #nav-items {
@@ -33,9 +32,6 @@
     display: block;
   }
 
-  #sidebar {
-    display: none;
-  }
 
   #Academic-container {
     margin: 20px 50px;
@@ -92,7 +88,7 @@
   }
 
   #Experience-container .inner-container {
-    width: 300px;
+    width: 300px; 
   }
 
   #skills-container {
