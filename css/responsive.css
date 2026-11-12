@@ -84,6 +84,7 @@
 
   /* Experience Details sections */
   #Experience-container {
+    gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
@@ -104,8 +105,35 @@
     width: 30px;
     height: 30px;
   }
+}
 
-  footer p {
-    font-size: 5px;
+@media screen and (max-width: 320px){
+  
+  #skills-container {
+    margin: 0 30px;
+  }
+  #skills-container img {
+    width: 30px;
+    height: 30px;
+  }
+  footer h2 {
+    font-size: 18px;
+  }
+
+  footer .quick-links {
+    gap: 10px;
+  }
+
+  footer .quick-links a span{ 
+    display: none;
+  }
+
+  footer .quick-links a img {
+    width: 20px;
+    height: 20px;
+  }
+
+  footer p{
+    font-size: 14px;
   }
 }
